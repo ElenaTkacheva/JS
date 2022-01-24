@@ -496,6 +496,7 @@ h1, h2, h3, p, ul {
 }
 
 .cross-sell__title {
+    flex: 1;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
