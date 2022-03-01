@@ -1,0 +1,142 @@
+body {
+  background-color: #15d8db;
+  padding-left: 132px;
+  padding-top: 115px;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 46px;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 3px #063b3b;
+  margin: 0;
+  margin-bottom: 70px;
+}
+
+.inputs-block {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 60px;
+}
+
+.input-item {
+  margin-right: 40px;
+  max-width: 255px;
+}
+
+.input-item-title {
+  margin-bottom: 20px;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 22px;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 5px #063b3b;
+}
+
+input {
+  background: #e4faf6;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.05);
+  border: none;
+  height: 56px;
+  border-radius: 4px;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.7);
+  padding-left: 18px;
+  width: 100%;
+  outline: none;
+}
+.input.error {
+  border: 1px solid red;
+}
+
+#add-word-btn {
+  background: #063b3b;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  border: none;
+  height: 56px;
+  border-radius: 4px;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.9);
+  letter-spacing: 1px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+#add-word-btn:hover {
+  background: #e4faf6;
+  color: #063b3b;
+  font-weight: 600;
+  font-size: 17px;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: 60px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 22px;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 5px #063b3b;
+}
+
+table {
+  width: 400px;
+}
+
+.tr {
+  position: relative;
+}
+
+.btn-delete {
+  background-image: url('../img/btn_delete.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 12px;
+  height: 12px;
+  background-color: transparent;
+  border: none;
+}
+
+.eng-word {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 0.03em;
+  color: #000000;
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 40px 0px;
+}
+
+.rus-word {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 0.03em;
+  color: #000000;
+  flex: none;
+  order: 1;
+  align-self: center;
+  margin: 40px 0px;
+}
